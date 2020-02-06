@@ -1,4 +1,5 @@
 digraph transphobes {
+    rankdir=LR;
     node [shape = doublecircle]; "National Post" "JCCF" "Conservative Party" "Globe & Mail" "People's Party" "Post Millenial" "WOMAN Means Something" "Rebel Media" "CAMH GIC" "Vancouver Rape Relief" "Feminist Current" "Vancouver Public Library" "U of T";
     node [shape = rectangle];
     "Barbara Kay" -> "Jonathan Kay" [ label = "Offspring" ];
