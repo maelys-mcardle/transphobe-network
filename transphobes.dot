@@ -1,6 +1,6 @@
 digraph transphobes {
     rankdir=LR;
-    node [shape = doublecircle]; "National Post" "JCCF" "Conservative Party" "Globe & Mail" "People's Party" "Post Millenial" "WOMAN Means Something" "Rebel Media" "CAMH GIC" "Vancouver Rape Relief" "Feminist Current" "Vancouver Public Library" "U of T";
+    node [shape = doublecircle]; "National Post" "JCCF" "Conservative Party" "Globe & Mail" "People's Party" "Post Millenial" "WOMAN Means Something" "Rebel Media" "CAMH GIC" "Vancouver Rape Relief" "Feminist Current" "U of T";
     node [shape = rectangle];
     "Barbara Kay" -> "Jonathan Kay" [ label = "Offspring" ];
     "Barbara Kay" -> "Jordan Peterson" [ label = "Promotes" ];
@@ -21,14 +21,13 @@ digraph transphobes {
     "Conrad Black" -> "Lindsay Shepherd" [ label = "Promotes" ];
     "Conservative Party" -> "Donald Plett" [ label = "Senator" ];
     "Conservative Party" -> "Gad Saad" [ label = "Invites at C-16 Hearing" ];
+    "Conservative Party" -> "Hilla Kerner" [ label = "Invites at C-16 Hearing" ];
     "Conservative Party" -> "Jordan Peterson" [ label = "Invites at C-16 Hearing" ];
     "Conservative Party" -> "Maxime Bernier" [ label = "Former MP" ];
-    "Conservative Party" -> "Meghan Murphy" [ label = "Invites at C-16 Hearing" ];
     "Conservative Party" -> "Paul Dirks" [ label = "Invites at C-16 Hearing" ];
     "Conservative Party" -> "People's Party" [ label = "Split Into" ];
     "Donald Plett" -> "Jordan Peterson" [ label = "Invokes" ];
     "Donald Plett" -> "Vancouver Rape Relief" [ label = "Invokes" ];
-    "Feminist Current" -> "Meghan Murphy" [ label = "Founder" ];
     "Gad Saad" -> "Jordan Peterson" [ label = "Promotes" ];
     "Globe & Mail" -> "Margaret Wente" [ label = "Writer" ];
     "JCCF" -> "Barbara Kay" [ label = "Board of Directors" ];
@@ -40,6 +39,8 @@ digraph transphobes {
     "Margaret Wente" -> "Jordan Peterson" [ label = "Promotes" ];
     "Margaret Wente" -> "Lindsay Shepherd" [ label = "Promotes" ];
     "Margaret Wente" -> "Meghan Murphy" [ label = "Promotes" ];
+    "Maxime Bernier" -> "People's Party" [ label = "Founder" ];
+    "Meghan Murphy" -> "Feminist Current" [ label = "Founder" ];
     "Meghan Murphy" -> "Vancouver Rape Relief" [ label = "Promotes" ]
     "National Post" -> "Barbara Kay" [ label = "Writer" ];
     "National Post" -> "Bruce Pardy" [ label = "Writer" ];
@@ -53,7 +54,6 @@ digraph transphobes {
     "National Post" -> "Susan Bradley" [ label = "Writer" ];
     "Paul Dirks" -> "Post Millenial" [ label = "Promotes" ];
     "Paul Dirks" -> "WOMAN Means Something" [ label = "Founder" ];
-    "People's Party" -> "Maxime Bernier" [ label = "Leader" ];
     "Post Millenial" -> "Barbara Kay" [ label = "Author" ];
     "Rebel Media" -> "Ezra Levant" [ label = "Founder" ];
     "Rex Murphy" -> "Jordan Peterson" [ label = "Promotes" ];
@@ -61,5 +61,5 @@ digraph transphobes {
     "U of T" -> "Jordan Peterson" [ label = "Professor" ];
     "U of T" -> "Lindsay Shepherd" [ label = "Former T/A" ];
     "U of T" -> "Ray Blanchard" [ label = "Professor" ];
-    "Vancouver Public Library" -> "Meghan Murphy" [ label = "Hosts" ];
+    "Vancouver Rape Relief" -> "Hilla Kerner" [ label = "Collective Member" ];
 }
