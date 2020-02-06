@@ -19,11 +19,11 @@ digraph transphobes {
     "Conrad Black" -> "Jordan Peterson" [ label = "Promotes" ];
     "Conrad Black" -> "Lindsay Shepherd" [ label = "Promotes" ];
     "Conservative Party" -> "Donald Plett" [ label = "Senator" ];
-    "Conservative Party" -> "Gad Saad" [ label = "Invites" ];
-    "Conservative Party" -> "Jordan Peterson" [ label = "Invites" ];
+    "Conservative Party" -> "Gad Saad" [ label = "Invites at C-16 Hearing" ];
+    "Conservative Party" -> "Jordan Peterson" [ label = "Invites at C-16 Hearing" ];
     "Conservative Party" -> "Maxime Bernier" [ label = "Former MP" ];
-    "Conservative Party" -> "Meghan Murphy" [ label = "Invites" ];
-    "Conservative Party" -> "Paul Dirks" [ label = "Invites" ];
+    "Conservative Party" -> "Meghan Murphy" [ label = "Invites at C-16 Hearing" ];
+    "Conservative Party" -> "Paul Dirks" [ label = "Invites at C-16 Hearing" ];
     "Conservative Party" -> "People's Party" [ label = "Split Into" ];
     "Donald Plett" -> "Jordan Peterson" [ label = "Invokes" ];
     "Donald Plett" -> "Vancouver Rape Relief" [ label = "Invokes" ];
