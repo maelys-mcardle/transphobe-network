@@ -3,14 +3,19 @@ digraph transphobes {
     node [shape = rectangle];
     "Barbara Kay" -> "Jonathan Kay" [ label = "Offspring" ];
     "Barbara Kay" -> "Jordan Peterson" [ label = "Promotes" ];
+    "Barbara Kay" -> "Kenneth Zucker" [ label = "Promotes" ];
     "Barbara Kay" -> "Lindsay Shepherd" [ label = "Promotes" ];
     "Barbara Kay" -> "Meghan Murphy" [ label = "Promotes" ];
+    "Barbara Kay" -> "Ray Blanchard" [ label = "Promotes" ];
+    "Barbara Kay" -> "Susan Bradley" [ label = "Promotes" ];
     "CAMH GIC" -> "Kenneth Zucker" [ label = "Founder" ];
     "CAMH GIC" -> "Ray Blanchard" [ label = "Head" ];
     "CAMH GIC" -> "Susan Bradley" [ label = "Founder" ];
     "Christie Blatchford" -> "Jordan Peterson" [ label = "Promotes" ];
     "Christie Blatchford" -> "Lindsay Shepherd" [ label = "Promotes" ];
     "Christie Blatchford" -> "Meghan Murphy" [ label = "Promotes" ];
+    "Chris Selley" -> "Kenneth Zucker" [ label = "Promotes" ];
+    "Chris Selley" -> "Ray Blanchard" [ label = "Promotes" ];
     "Conrad Black" -> "Jordan Peterson" [ label = "Promotes" ];
     "Conrad Black" -> "Lindsay Shepherd" [ label = "Promotes" ];
     "Conservative Party" -> "Donald Plett" [ label = "Senator" ];
@@ -38,6 +43,7 @@ digraph transphobes {
     "National Post" -> "Barbara Kay" [ label = "Writer" ];
     "National Post" -> "Bruce Pardy" [ label = "Writer" ];
     "National Post" -> "Christie Blatchford" [ label = "Writer" ];
+    "National Post" -> "Chris Selley" [ label = "Writer" ];
     "National Post" -> "Conrad Black" [ label = "Writer" ];
     "National Post" -> "Jonathan Kay" [ label = "Writer" ];
     "National Post" -> "Jordan Peterson" [ label = "Writer" ];
