@@ -1,6 +1,6 @@
 digraph transphobes {
     rankdir=LR;
-    node [shape = doublecircle]; "National Post" "JCCF" "Conservative Party" "Globe & Mail" "People's Party" "Post Millenial" "WOMAN Means Something" "Rebel Media" "CAMH GIC" "Vancouver Rape Relief" "Feminist Current" "U of T" "Quillette";
+    node [shape = doublecircle]; "National Post" "JCCF" "Conservative Party" "Globe & Mail" "Toronto Sun" "People's Party" "Post Millenial" "WOMAN Means Something" "Rebel Media" "CAMH GIC" "Vancouver Rape Relief" "Feminist Current" "U of T" "Quillette";
     node [shape = rectangle];
     "Barbara Kay" -> "Jonathan Kay" [ label = "Offspring" ];
     "Barbara Kay" -> "Jordan Peterson" [ label = "Promotes" ];
@@ -19,6 +19,7 @@ digraph transphobes {
     "Chris Selley" -> "Ray Blanchard" [ label = "Promotes" ];
     "Conrad Black" -> "Jordan Peterson" [ label = "Promotes" ];
     "Conrad Black" -> "Lindsay Shepherd" [ label = "Promotes" ];
+    "Conrad Black" -> "Maxime Bernier" [ label = "Promotes" ];
     "Conservative Party" -> "Donald Plett" [ label = "Senator" ];
     "Conservative Party" -> "Gad Saad" [ label = "Invites at C-16 Hearing" ];
     "Conservative Party" -> "Hilla Kerner" [ label = "Invites at C-16 Hearing" ];
@@ -31,6 +32,11 @@ digraph transphobes {
     "Debra Soh" -> "Kenneth Zucker" [ label = "Promotes" ];
     "Donald Plett" -> "Jordan Peterson" [ label = "Invokes" ];
     "Donald Plett" -> "Vancouver Rape Relief" [ label = "Invokes" ];
+    "Ezra Levant" -> "Barbara Kay" [ label = "Promotes" ];
+    "Ezra Levant" -> "Jordan Peterson" [ label = "Promotes" ];
+    "Ezra Levant" -> "Lindsay Shepherd" [ label = "Promotes" ];
+    "Ezra Levant" -> "Maxime Bernier" [ label = "Promotes" ];
+    "Ezra Levant" -> "Meghan Murphy" [ label = "Promotes" ];
     "Gad Saad" -> "Jordan Peterson" [ label = "Promotes" ];
     "Globe & Mail" -> "Debra Soh" [ label = "Writer" ];
     "Globe & Mail" -> "Margaret Wente" [ label = "Writer" ];
@@ -40,9 +46,12 @@ digraph transphobes {
     "JCCF" -> "William Whatcott" [ label = "Intervenor" ]; 
     "Lindsay Shepherd" -> "Jordan Peterson" [ label = "Promotes" ];
     "Lindsay Shepherd" -> "Meghan Murphy" [ label = "Promotes" ];
+    "Margaret Wente" -> "Bruce Pardy" [ label = "Promotes" ];
     "Margaret Wente" -> "Jordan Peterson" [ label = "Promotes" ];
+    "Margaret Wente" -> "Kenneth Zucker" [ label = "Promotes" ];
     "Margaret Wente" -> "Lindsay Shepherd" [ label = "Promotes" ];
     "Margaret Wente" -> "Meghan Murphy" [ label = "Promotes" ];
+    "Margaret Wente" -> "Susan Bradley" [ label = "Promotes" ];
     "Maxime Bernier" -> "People's Party" [ label = "Founder" ];
     "Meghan Murphy" -> "Feminist Current" [ label = "Founder" ];
     "Meghan Murphy" -> "Vancouver Rape Relief" [ label = "Promotes" ]
@@ -64,6 +73,12 @@ digraph transphobes {
     "Rebel Media" -> "Ezra Levant" [ label = "Founder" ];
     "Rex Murphy" -> "Jordan Peterson" [ label = "Promotes" ];
     "Rex Murphy" -> "Lindsay Shepherd" [ label = "Promotes" ];
+    "Rex Murphy" -> "Maxime Bernier" [ label = "Promotes" ];
+    "Sue-Ann Levy" -> "Jordan Peterson" [ label = "Promotes" ];
+    "Sue-Ann Levy" -> "Kenneth Zucker" [ label = "Promotes" ];
+    "Sue-Ann Levy" -> "Lindsay Shepherd" [ label = "Promotes" ];
+    "Sue-Ann Levy" -> "Meghan Murphy" [ label = "Promotes" ];
+    "Toronto Sun" -> "Sue-Ann Levy" [ label = "Writer" ];
     "U of T" -> "Jordan Peterson" [ label = "Professor" ];
     "U of T" -> "Lindsay Shepherd" [ label = "Former T/A" ];
     "U of T" -> "Ray Blanchard" [ label = "Professor" ];
