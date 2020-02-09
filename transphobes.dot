@@ -29,6 +29,7 @@ digraph transphobes {
     "Conrad Black" -> "Jordan Peterson" [ label = "Promotes" ];
     "Conrad Black" -> "Lindsay Shepherd" [ label = "Promotes" ];
     "Conrad Black" -> "Maxime Bernier" [ label = "Promotes" ];
+    "Conrad Black" -> "People's Party" [ label = "Promotes" ];
     "Conservative Party" -> "Donald Plett" [ label = "Senator" ];
     "Conservative Party" -> "Gad Saad" [ label = "Invites at C-16 Hearing" ];
     "Conservative Party" -> "Hilla Kerner" [ label = "Invites at C-16 Hearing" ];
@@ -47,6 +48,7 @@ digraph transphobes {
     "Ezra Levant" -> "Lindsay Shepherd" [ label = "Promotes" ];
     "Ezra Levant" -> "Maxime Bernier" [ label = "Promotes" ];
     "Ezra Levant" -> "Meghan Murphy" [ label = "Promotes" ];
+    "Ezra Levant" -> "People's Party" [ label = "Promotes" ];
     "Gad Saad" -> "Jordan Peterson" [ label = "Promotes" ];
     "Globe & Mail" -> "Debra Soh" [ label = "Writer" ];
     "Globe & Mail" -> "Margaret Wente" [ label = "Writer" ];
@@ -61,6 +63,7 @@ digraph transphobes {
     "Margaret Wente" -> "Kenneth Zucker" [ label = "Promotes" ];
     "Margaret Wente" -> "Lindsay Shepherd" [ label = "Promotes" ];
     "Margaret Wente" -> "Meghan Murphy" [ label = "Promotes" ];
+    "Margaret Wente" -> "People's Party" [ label = "Promotes" ];
     "Margaret Wente" -> "Susan Bradley" [ label = "Promotes" ];
     "Maxime Bernier" -> "People's Party" [ label = "Founder" ];
     "Meghan Murphy" -> "Feminist Current" [ label = "Founder" ];
@@ -86,6 +89,7 @@ digraph transphobes {
     "Rex Murphy" -> "Jordan Peterson" [ label = "Promotes" ];
     "Rex Murphy" -> "Lindsay Shepherd" [ label = "Promotes" ];
     "Rex Murphy" -> "Maxime Bernier" [ label = "Promotes" ];
+    "Rex Murphy" -> "People's Party" [ label = "Promotes" ];
     "Soldiers of Odin" -> "Jenn Smith" [ label = "Security For" ];
     "Sue-Ann Levy" -> "Jordan Peterson" [ label = "Promotes" ];
     "Sue-Ann Levy" -> "Kenneth Zucker" [ label = "Promotes" ];
