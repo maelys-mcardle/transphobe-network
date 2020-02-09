@@ -1,7 +1,14 @@
 digraph transphobes {
     rankdir=LR;
-    node [shape = doublecircle]; "National Post" "JCCF" "Conservative Party" "Globe & Mail" "Toronto Sun" "People's Party" "Post Millenial" "WOMAN Means Something" "Rebel Media" "CAMH GIC" "Vancouver Rape Relief" "Feminist Current" "U of T" "Quillette";
+    node [shape = doublecircle]; "Pride" "Culture Guard" "Soldiers of Odin" "Yellow Vest" "Canadian Nationalist Party" "National Post" "JCCF" "Conservative Party" "Globe & Mail" "Toronto Sun" "People's Party" "Post Millenial" "WOMAN Means Something" "Rebel Media" "CAMH GIC" "Vancouver Rape Relief" "Feminist Current" "U of T" "Quillette";
     node [shape = rectangle];
+    
+    "Charles McVety" -> "Pride" [ label = "Harrasses" ];
+    "Culture Guard" -> "Pride" [ label = "Harrasses" ];
+    "People's Party" -> "Pride" [ label = "Harrasses" ];
+    "Soldiers of Odin" -> "Pride" [ label = "Harrasses" ];
+    "Yellow Vests" -> "Pride" [ label = "Harrasses" ];
+    
     "Barbara Kay" -> "Jonathan Kay" [ label = "Offspring" ];
     "Barbara Kay" -> "Jordan Peterson" [ label = "Promotes" ];
     "Barbara Kay" -> "Kenneth Zucker" [ label = "Promotes" ];
@@ -12,6 +19,7 @@ digraph transphobes {
     "CAMH GIC" -> "Kenneth Zucker" [ label = "Founder" ];
     "CAMH GIC" -> "Ray Blanchard" [ label = "Head" ];
     "CAMH GIC" -> "Susan Bradley" [ label = "Founder" ];
+    "Charles McVety" -> "Conservative Party" [ label = "Promotes" ];
     "Christie Blatchford" -> "Jordan Peterson" [ label = "Promotes" ];
     "Christie Blatchford" -> "Lindsay Shepherd" [ label = "Promotes" ];
     "Christie Blatchford" -> "Meghan Murphy" [ label = "Promotes" ];
@@ -28,6 +36,7 @@ digraph transphobes {
     "Conservative Party" -> "Meghan Murphy" [ label = "Invites at C-16 Hearing" ];
     "Conservative Party" -> "Paul Dirks" [ label = "Invites at C-16 Hearing" ];
     "Conservative Party" -> "People's Party" [ label = "Split Into" ];
+    "Culture Guard" -> "People's Party" [ label = "Harrasses Pride Attendees With" ];
     "Debra Soh" -> "CAMH GIC" [ label = "Supports" ];
     "Debra Soh" -> "Kenneth Zucker" [ label = "Promotes" ];
     "Donald Plett" -> "Jordan Peterson" [ label = "Invokes" ];
@@ -67,13 +76,16 @@ digraph transphobes {
     "National Post" -> "Susan Bradley" [ label = "Writer" ];
     "Paul Dirks" -> "Post Millenial" [ label = "Promotes" ];
     "Paul Dirks" -> "WOMAN Means Something" [ label = "Founder" ];
+    "People's Party" -> "Charles McVety" [ label = "Harrasses Pride Attendees With" ];
     "Post Millenial" -> "Barbara Kay" [ label = "Author" ];
+    "Post Millenial" -> "Jenn Smith" [ label = "Author" ];
     "Quillette" -> "Jonathan Kay" [ label = "Editor" ];
     "Quillette" -> "Debra Soh" [ label = "Editor" ];
     "Rebel Media" -> "Ezra Levant" [ label = "Founder" ];
     "Rex Murphy" -> "Jordan Peterson" [ label = "Promotes" ];
     "Rex Murphy" -> "Lindsay Shepherd" [ label = "Promotes" ];
     "Rex Murphy" -> "Maxime Bernier" [ label = "Promotes" ];
+    "Soldiers of Odin" -> "Jenn Smith" [ label = "Security For" ];
     "Sue-Ann Levy" -> "Jordan Peterson" [ label = "Promotes" ];
     "Sue-Ann Levy" -> "Kenneth Zucker" [ label = "Promotes" ];
     "Sue-Ann Levy" -> "Lindsay Shepherd" [ label = "Promotes" ];
