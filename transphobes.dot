@@ -3,11 +3,12 @@ digraph transphobes {
     node [shape = doublecircle]; "Pride" "Culture Guard" "Soldiers of Odin" "Yellow Vest" "Canadian Nationalist Party" "National Post" "JCCF" "Conservative Party" "Globe & Mail" "Toronto Sun" "People's Party" "Post Millenial" "WOMAN Means Something" "Rebel Media" "CAMH GIC" "Vancouver Rape Relief" "Feminist Current" "U of T" "Quillette";
     node [shape = rectangle];
     
+    "Canadian Nationalist Party" -> "Pride" [ label = "Harrasses" ];
     "Charles McVety" -> "Pride" [ label = "Harrasses" ];
     "Culture Guard" -> "Pride" [ label = "Harrasses" ];
     "People's Party" -> "Pride" [ label = "Harrasses" ];
     "Soldiers of Odin" -> "Pride" [ label = "Harrasses" ];
-    "Yellow Vests" -> "Pride" [ label = "Harrasses" ];
+    "Yellow Vest" -> "Pride" [ label = "Harrasses" ];
     
     "Barbara Kay" -> "Jonathan Kay" [ label = "Offspring" ];
     "Barbara Kay" -> "Jordan Peterson" [ label = "Promotes" ];
