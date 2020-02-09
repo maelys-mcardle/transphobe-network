@@ -49,6 +49,7 @@ digraph transphobes {
     "Ezra Levant" -> "Maxime Bernier" [ label = "Promotes" ];
     "Ezra Levant" -> "Meghan Murphy" [ label = "Promotes" ];
     "Ezra Levant" -> "People's Party" [ label = "Promotes" ];
+    "Ezra Levant" -> "Rebel Media" [ label = "Founder" ];
     "Gad Saad" -> "Jordan Peterson" [ label = "Promotes" ];
     "Globe & Mail" -> "Debra Soh" [ label = "Writer" ];
     "Globe & Mail" -> "Margaret Wente" [ label = "Writer" ];
@@ -85,7 +86,6 @@ digraph transphobes {
     "Post Millenial" -> "Jenn Smith" [ label = "Author" ];
     "Quillette" -> "Jonathan Kay" [ label = "Editor" ];
     "Quillette" -> "Debra Soh" [ label = "Editor" ];
-    "Rebel Media" -> "Ezra Levant" [ label = "Founder" ];
     "Rex Murphy" -> "Jordan Peterson" [ label = "Promotes" ];
     "Rex Murphy" -> "Lindsay Shepherd" [ label = "Promotes" ];
     "Rex Murphy" -> "Maxime Bernier" [ label = "Promotes" ];
