@@ -57,6 +57,12 @@ digraph transphobes {
     "JCCF" -> "Bruce Pardy" [ label = "Board of Directors" ];
     "JCCF" -> "Lindsay Shepherd" [ label = "Fellow" ];
     "JCCF" -> "William Whatcott" [ label = "Intervenor" ]; 
+    "Jonathan Kay" -> "Jordan Peterson" [ label = "Promotes" ];
+    "Jonathan Kay" -> "Lindsay Shepherd" [ label = "Promotes" ];
+    "Jonathan Kay" -> "Meghan Murphy" [ label = "Promotes" ];
+    "Jonathan Kay" -> "Ray Blanchard" [ label = "Promotes" ];
+    "Jonathan Kay" -> "Susan Bradley" [ label = "Promotes" ];
+    "Jonathan Kay" -> "Debra Soh" [ label = "Cohots Podcast" ];
     "Lindsay Shepherd" -> "Jordan Peterson" [ label = "Promotes" ];
     "Lindsay Shepherd" -> "Meghan Murphy" [ label = "Promotes" ];
     "Margaret Wente" -> "Bruce Pardy" [ label = "Promotes" ];
@@ -86,6 +92,7 @@ digraph transphobes {
     "Post Millenial" -> "Jenn Smith" [ label = "Author" ];
     "Quillette" -> "Jonathan Kay" [ label = "Editor" ];
     "Quillette" -> "Debra Soh" [ label = "Editor" ];
+    "Quillette" -> "Lindsay Shepherd" [ label = "Writer" ];
     "Rex Murphy" -> "Jordan Peterson" [ label = "Promotes" ];
     "Rex Murphy" -> "Lindsay Shepherd" [ label = "Promotes" ];
     "Rex Murphy" -> "Maxime Bernier" [ label = "Promotes" ];
